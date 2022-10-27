@@ -1,20 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+import Home from './src/screens/Home';
+import RestaurantDetails from './src/screens/RestaurantDetails/index';
+import DishDetails from './src/screens/DishDetails/index';
+import Basket from './src/screens/Basket/index';
+import Orders from './src/screens/Orders/index';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View className="flex-1 items-center justify-center bg-white ">
+      {/* <Home /> */}
+      {/* <RestaurantDetails /> */}
+      {/* <DishDetails /> */}
+      {/* <Basket /> */}
+      <Orders />
+
+      <StatusBar style="light" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

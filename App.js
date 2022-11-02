@@ -5,6 +5,7 @@ import RestaurantDetails from './src/screens/RestaurantDetails/index';
 import DishDetails from './src/screens/DishDetails/index';
 import Basket from './src/screens/Basket/index';
 import Orders from './src/screens/Orders/index';
+import OrderDetails from './src/screens/OrderDetails/index';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <RestaurantDetails /> */}
       {/* <DishDetails /> */}
       {/* <Basket /> */}
-      <Orders />
+      {/* <Orders /> */}
+      <OrderDetails />
 
       <StatusBar style="light" />
     </View>

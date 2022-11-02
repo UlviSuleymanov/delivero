@@ -4,7 +4,7 @@ import orders from '../../../assets/data/orders.json';
 
 const Orders = () => {
   return (
-    <View>
+    <View className="flex-1 w-full pt-[50px]">
       <FlatList data={orders} renderItem={({ item }) => <OrderListItem order={item} />} />
     </View>
   );
